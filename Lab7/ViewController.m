@@ -50,6 +50,7 @@
     [_Cbrain tangentCalculationString];
     [self updatecalculationView];
 }
+
 - (IBAction)actionPressed:(id)sender {
     UIButton *pressedButton = (UIButton *)sender;
     if ([_Cbrain recognizeAction:(int)pressedButton.tag]) {

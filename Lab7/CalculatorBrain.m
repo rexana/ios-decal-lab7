@@ -88,6 +88,8 @@
         case add:
             total = operand1 + operand2;
             break;
+        case mod:
+            total = (NSUInteger) operand1 % (NSUInteger) operand2;
         default:
             break;
     }

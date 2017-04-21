@@ -13,7 +13,8 @@ typedef enum actionType : long {
     multiply = 0,
     subtract,
     add,
-    equal
+    equal,
+    mod
 } actionType;
 @property actionType currentAction;
 @property NSString *calculationString;
